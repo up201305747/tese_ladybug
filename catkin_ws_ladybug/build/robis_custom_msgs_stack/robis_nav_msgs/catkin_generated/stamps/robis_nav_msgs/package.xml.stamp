@@ -1,0 +1,24 @@
+<package>
+  <name> robis_nav_msgs </name>
+  <version> 0.0.0 </version>
+  <description> TODO </description>
+
+  <maintainer email="heber.sobreira@gmail.com">heber </maintainer>
+  <license> TODO </license>
+  <url type="website">http://TODO </url>
+  <author email="heber.sobreira@gmail.com">heber </author>
+
+  <buildtool_depend> catkin </buildtool_depend>
+
+  <build_depend>message_generation</build_depend>
+  <run_depend>message_runtime</run_depend>
+
+  <build_depend> std_msgs </build_depend>
+  <build_depend> geometry_msgs </build_depend>
+  <build_depend> nav_msgs </build_depend>
+  <run_depend> std_msgs </run_depend>
+  <run_depend> geometry_msgs </run_depend>
+  <run_depend> nav_msgs </run_depend>
+</package>
+
+

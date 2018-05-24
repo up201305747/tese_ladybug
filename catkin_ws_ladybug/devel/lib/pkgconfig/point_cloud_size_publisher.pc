@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_ws_ladybug/devel
+
+Name: point_cloud_size_publisher
+Description: Description of point_cloud_size_publisher
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/user/catkin_ws_ladybug/devel/lib 
+Requires: 

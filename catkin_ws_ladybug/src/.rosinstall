@@ -1,0 +1,18 @@
+- git:
+    local-name: driver_laser_nav350
+    uri: git@gitlab.inesctec.pt:heber.m.sobreira/driver_laser_nav350.git
+- git:
+    local-name: ladybug_configuration_stack
+    uri: git@gitlab.inesctec.pt:heber.m.sobreira/ladybug_configuration_stack.git
+- git:
+    local-name: localization_beacons_stack
+    uri: git@gitlab.inesctec.pt:heber.m.sobreira/localization_beacons_stack.git
+- git:
+    local-name: ndc_interface
+    uri: git@gitlab.inesctec.pt:heber.m.sobreira/ndc_interface.git
+- git:
+    local-name: robis_custom_msgs_stack
+    uri: git@gitlab.inesctec.pt:heber.m.sobreira/robis_custom_msgs_stack.git
+- git:
+    local-name: utilities_stack
+    uri: git@gitlab.inesctec.pt:heber.m.sobreira/utilities_stack.git

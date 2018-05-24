@@ -1,0 +1,14 @@
+-I/usr/include/qt4
+-I/usr/include/qt4/QtGui
+-I/usr/include/qt4/QtCore
+-I/home/user/catkin_ws_ladybug/build/localization_beacons_stack/laser_scan_to_beacons
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="laser_scan_to_beacons"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-D$<$<NOT:$<CONFIG:Debug>>:QT_NO_DEBUG>
+-DQT_GUI_LIB
+-DQT_CORE_LIB
+-DQT_NO_KEYWORDS
+-o
+/home/user/catkin_ws_ladybug/build/localization_beacons_stack/laser_scan_to_beacons/include/laser_scan_to_beacons/moc_laser_scan_to_beacons_interface.cxx
+/home/user/catkin_ws_ladybug/src/localization_beacons_stack/laser_scan_to_beacons/include/laser_scan_to_beacons/laser_scan_to_beacons_interface.h

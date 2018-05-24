@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_ws_ladybug/devel
+
+Name: pose_tf_disk_saver
+Description: Description of pose_tf_disk_saver
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/user/catkin_ws_ladybug/devel/lib 
+Requires: 

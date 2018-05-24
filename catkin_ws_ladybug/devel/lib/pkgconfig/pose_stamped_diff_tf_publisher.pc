@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_ws_ladybug/devel
+
+Name: pose_stamped_diff_tf_publisher
+Description: Description of pose_stamped_diff_tf_publisher
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/user/catkin_ws_ladybug/devel/lib 
+Requires: 

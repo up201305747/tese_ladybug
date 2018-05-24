@@ -1,0 +1,12 @@
+-I/usr/include/qt4
+-I/usr/include/qt4/QtGui
+-I/usr/include/qt4/QtCore
+-I/home/user/catkin_ws_ladybug/build/utilities_stack/pose_stamped_diff_tf_publisher
+-DROS_BUILD_SHARED_LIBS=1
+-D$<$<NOT:$<CONFIG:Debug>>:QT_NO_DEBUG>
+-DQT_GUI_LIB
+-DQT_CORE_LIB
+-DQT_NO_KEYWORDS
+-o
+/home/user/catkin_ws_ladybug/build/utilities_stack/pose_stamped_diff_tf_publisher/include/pose_stamped_diff_tf_publisher/moc_pose_stamped_diff_tf_publisher.cxx
+/home/user/catkin_ws_ladybug/src/utilities_stack/pose_stamped_diff_tf_publisher/include/pose_stamped_diff_tf_publisher/pose_stamped_diff_tf_publisher.h

@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_ws_ladybug/devel
+
+Name: black_box
+Description: Description of black_box
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/user/catkin_ws_ladybug/devel/lib 
+Requires: 

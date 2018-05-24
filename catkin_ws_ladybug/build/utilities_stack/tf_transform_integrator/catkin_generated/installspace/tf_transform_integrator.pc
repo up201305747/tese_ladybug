@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_ws_ladybug/install
+
+Name: tf_transform_integrator
+Description: Description of tf_transform_integrator
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/user/catkin_ws_ladybug/install/lib 
+Requires: 

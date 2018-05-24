@@ -1,0 +1,20 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~kalman_filter_method" : \b [int] The method to employ (default: kfEKFNaive) min: 0, default: 0, max: 3
+- \b "~IKF_iterations" : \b [int] Number of refinement iterations, only for the IKF method (default: 5) min: 1, default: 5, max: 100
+- \b "~data_assoc_metric" : \b [int] Different metrics for data association (default: metricMaha) min: 0, default: 0, max: 1
+- \b "~data_assoc_IC_chi2_thres" : \b [double] Threshold in [0,1] for the chi2square test for individual compatibility between predictions and observations (default: 0.99) min: 0.0, default: 0.99, max: 1.0
+- \b "~data_assoc_IC_ml_threshold" : \b [double] Only if data_assoc_IC_metric==ML, the log-ML threshold (Default=0.0)  min: 0.0, default: 0.0, max: 1.0
+- \b "~data_assoc_method" : \b [int] Different algorithms for data association, used in mrpt::slam::data_association (default: assocNN) min: 0, default: 0, max: 1
+- \b "~data_assoc_IC_metric" : \b [int] Whether to use mahalanobis (->chi2 criterion) vs. Matching likelihood min: 0, default: 0, max: 1
+- \b "~motion_model_gaussian_a1" : \b [double] meters/meter (default: 0.05) min: 0.0, default: 0.05, max: 1.0
+- \b "~motion_model_gaussian_a2" : \b [double] meters/degree (default: 0.001) min: 0.0, default: 0.001, max: 1.0
+- \b "~motion_model_gaussian_a3" : \b [double] degrees/meter (default: 5.0) min: 0.0, default: 5.0, max: 180.0
+- \b "~motion_model_gaussian_a4" : \b [double] degrees/degree (default: 0.05) min: 0.0, default: 0.05, max: 1.0
+- \b "~motion_model_gaussian_minStdXY" : \b [double] meters (default: 0.01) min: 0.0, default: 0.01, max: 1.0
+- \b "~motion_model_gaussian_minStdPHI" : \b [double] degrees (default: 0.2) min: 0.0, default: 0.2, max: 10.0
+- \b "~sensor_std_range" : \b [double] meters (default: 0.03) min: 0.0, default: 0.03, max: 1.0
+- \b "~sensor_std_yaw" : \b [double] degrees (default: 0.5) min: 0.0, default: 0.5, max: 10.0
+

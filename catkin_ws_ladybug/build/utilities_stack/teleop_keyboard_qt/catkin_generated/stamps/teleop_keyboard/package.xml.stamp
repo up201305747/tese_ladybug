@@ -1,0 +1,17 @@
+<package>
+  <name> teleop_keyboard </name>
+  <version> 0.0.0 </version>
+  <description> TODO </description>
+
+  <maintainer email="heber.sobreira@gmail.com">heber </maintainer>
+  <license> TODO </license>
+  <url type="website">http://TODO </url>
+  <author email="heber.sobreira@gmail.com">heber </author>
+
+  <buildtool_depend> catkin </buildtool_depend>
+
+  <build_depend> roscpp </build_depend>
+  <build_depend> geometry_msgs </build_depend>
+  <run_depend> roscpp </run_depend>
+  <run_depend> geometry_msgs </run_depend>
+</package>

@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: /home/user/catkin_ws_ladybug/src
+# Build directory: /home/user/catkin_ws_ladybug/build
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+subdirs(gtest)
+subdirs(utilities_stack/black_box)
+subdirs(ladybug_configuration_stack/ladybug_driver_laser_navigation)
+subdirs(ladybug_configuration_stack/ladybug_localization_ekf_beacons)
+subdirs(ladybug_configuration_stack/ladybug_localization_pose_ground_truth)
+subdirs(ladybug_configuration_stack/ladybug_ndc_interface)
+subdirs(ladybug_configuration_stack/ladybug_scripts)
+subdirs(robis_custom_msgs_stack/proagv_trajectory_msgs)
+subdirs(robis_custom_msgs_stack/robis_nav_msgs)
+subdirs(utilities_stack/robis_math_utilities)
+subdirs(utilities_stack/odometry_calculations)
+subdirs(utilities_stack/espeak_server)
+subdirs(utilities_stack/gazebo_msgs_model_states_to_pose_stamped)
+subdirs(utilities_stack/point_cloud_size_publisher)
+subdirs(utilities_stack/teleop_keyboard_qt)
+subdirs(utilities_stack/omnijoy)
+subdirs(utilities_stack/localization_tester_initialization_error)
+subdirs(utilities_stack/qt_ros_interface)
+subdirs(utilities_stack/console_msg_to_speak)
+subdirs(driver_laser_nav350)
+subdirs(utilities_stack/frame_speed_observer)
+subdirs(localization_beacons_stack/laser_scan_to_beacons)
+subdirs(localization_beacons_stack/localization_ekf_beacons)
+subdirs(utilities_stack/pose_stamped_diff_tf_publisher)
+subdirs(utilities_stack/pose_stamped_to_tf)
+subdirs(utilities_stack/pose_tf_disk_saver)
+subdirs(utilities_stack/simulator_beacons)
+subdirs(localization_beacons_stack/slam_ekf_beacons)
+subdirs(ndc_interface)
+subdirs(utilities_stack/tf_transform_integrator)

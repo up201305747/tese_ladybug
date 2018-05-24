@@ -1,0 +1,32 @@
+<package>
+  <name> localization_ekf_beacons </name>
+  <version> 0.0.0 </version>
+  <description> TODO </description>
+
+  <maintainer email="heber.sobreira@gmail.com">heber </maintainer>
+  <license> TODO </license>
+  <url type="website">http://TODO </url>
+  <author email="heber.sobreira@gmail.com">heber </author>
+
+  <buildtool_depend> catkin </buildtool_depend>
+
+  <build_depend> libqt4 </build_depend>
+  <build_depend> mrpt </build_depend>
+  <build_depend> qt_ros_interface </build_depend>
+  <build_depend> roscpp </build_depend>
+  <build_depend> tf </build_depend>
+  <build_depend> robis_math_utilities </build_depend>
+  <build_depend> dynamic_reconfigure </build_depend>
+  <build_depend> std_srvs </build_depend>
+  <build_depend> robis_nav_msgs </build_depend>
+
+  <run_depend> libqt4 </run_depend>
+  <run_depend> mrpt </run_depend>
+  <run_depend> qt_ros_interface </run_depend>
+  <run_depend> roscpp </run_depend>
+  <run_depend> tf </run_depend>
+  <run_depend> robis_math_utilities </run_depend>
+  <run_depend> dynamic_reconfigure </run_depend>
+  <run_depend> std_srvs </run_depend>
+  <run_depend> robis_nav_msgs </run_depend>
+</package>

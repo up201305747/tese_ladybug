@@ -1,0 +1,12 @@
+-I/usr/include/qt4
+-I/usr/include/qt4/QtGui
+-I/usr/include/qt4/QtCore
+-I/home/user/catkin_ws_ladybug/build/utilities_stack/pose_tf_disk_saver
+-DROS_BUILD_SHARED_LIBS=1
+-D$<$<NOT:$<CONFIG:Debug>>:QT_NO_DEBUG>
+-DQT_GUI_LIB
+-DQT_CORE_LIB
+-DQT_NO_KEYWORDS
+-o
+/home/user/catkin_ws_ladybug/build/utilities_stack/pose_tf_disk_saver/include/pose_tf_disk_saver/moc_pose_tf_disk_saver.cxx
+/home/user/catkin_ws_ladybug/src/utilities_stack/pose_tf_disk_saver/include/pose_tf_disk_saver/pose_tf_disk_saver.h

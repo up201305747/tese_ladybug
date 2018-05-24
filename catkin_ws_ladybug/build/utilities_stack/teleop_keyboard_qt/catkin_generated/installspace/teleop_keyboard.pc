@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_ws_ladybug/install
+
+Name: teleop_keyboard
+Description: Description of teleop_keyboard
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/user/catkin_ws_ladybug/install/lib 
+Requires: 

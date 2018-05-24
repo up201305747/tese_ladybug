@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC   -shared -Wl,-soname,libodometry_calculations.so -o /home/user/catkin_ws_ladybug/devel/lib/libodometry_calculations.so CMakeFiles/odometry_calculations.dir/src/odometry_calculations_diferencial.cpp.o CMakeFiles/odometry_calculations.dir/src/odometry_calculations_mecanum.cpp.o CMakeFiles/odometry_calculations.dir/src/odometry_calculations_tricycle.cpp.o 

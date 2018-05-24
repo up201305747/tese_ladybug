@@ -1,0 +1,161 @@
+# Install script for directory: /home/user/catkin_ws_ladybug/src
+
+# Set the install prefix
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  set(CMAKE_INSTALL_PREFIX "/home/user/catkin_ws_ladybug/install")
+endif()
+string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
+
+# Set the install configuration name.
+if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
+  if(BUILD_TYPE)
+    string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
+           CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
+  else()
+    set(CMAKE_INSTALL_CONFIG_NAME "")
+  endif()
+  message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
+endif()
+
+# Set the component getting installed.
+if(NOT CMAKE_INSTALL_COMPONENT)
+  if(COMPONENT)
+    message(STATUS "Install component: \"${COMPONENT}\"")
+    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")
+  else()
+    set(CMAKE_INSTALL_COMPONENT)
+  endif()
+endif()
+
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  
+      if (NOT EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}")
+        file(MAKE_DIRECTORY "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}")
+      endif()
+      if (NOT EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/.catkin")
+        file(WRITE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/.catkin" "")
+      endif()
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "/home/user/catkin_ws_ladybug/install/_setup_util.py")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "/home/user/catkin_ws_ladybug/install" TYPE PROGRAM FILES "/home/user/catkin_ws_ladybug/build/catkin_generated/installspace/_setup_util.py")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "/home/user/catkin_ws_ladybug/install/env.sh")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "/home/user/catkin_ws_ladybug/install" TYPE PROGRAM FILES "/home/user/catkin_ws_ladybug/build/catkin_generated/installspace/env.sh")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "/home/user/catkin_ws_ladybug/install/setup.bash")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "/home/user/catkin_ws_ladybug/install" TYPE FILE FILES "/home/user/catkin_ws_ladybug/build/catkin_generated/installspace/setup.bash")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "/home/user/catkin_ws_ladybug/install/setup.sh")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "/home/user/catkin_ws_ladybug/install" TYPE FILE FILES "/home/user/catkin_ws_ladybug/build/catkin_generated/installspace/setup.sh")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "/home/user/catkin_ws_ladybug/install/setup.zsh")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "/home/user/catkin_ws_ladybug/install" TYPE FILE FILES "/home/user/catkin_ws_ladybug/build/catkin_generated/installspace/setup.zsh")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "/home/user/catkin_ws_ladybug/install/.rosinstall")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "/home/user/catkin_ws_ladybug/install" TYPE FILE FILES "/home/user/catkin_ws_ladybug/build/catkin_generated/installspace/.rosinstall")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for each subdirectory.
+  include("/home/user/catkin_ws_ladybug/build/gtest/cmake_install.cmake")
+  include("/home/user/catkin_ws_ladybug/build/utilities_stack/black_box/cmake_install.cmake")
+  include("/home/user/catkin_ws_ladybug/build/ladybug_configuration_stack/ladybug_driver_laser_navigation/cmake_install.cmake")
+  include("/home/user/catkin_ws_ladybug/build/ladybug_configuration_stack/ladybug_localization_ekf_beacons/cmake_install.cmake")
+  include("/home/user/catkin_ws_ladybug/build/ladybug_configuration_stack/ladybug_localization_pose_ground_truth/cmake_install.cmake")
+  include("/home/user/catkin_ws_ladybug/build/ladybug_configuration_stack/ladybug_ndc_interface/cmake_install.cmake")
+  include("/home/user/catkin_ws_ladybug/build/ladybug_configuration_stack/ladybug_scripts/cmake_install.cmake")
+  include("/home/user/catkin_ws_ladybug/build/robis_custom_msgs_stack/proagv_trajectory_msgs/cmake_install.cmake")
+  include("/home/user/catkin_ws_ladybug/build/robis_custom_msgs_stack/robis_nav_msgs/cmake_install.cmake")
+  include("/home/user/catkin_ws_ladybug/build/utilities_stack/robis_math_utilities/cmake_install.cmake")
+  include("/home/user/catkin_ws_ladybug/build/utilities_stack/odometry_calculations/cmake_install.cmake")
+  include("/home/user/catkin_ws_ladybug/build/utilities_stack/espeak_server/cmake_install.cmake")
+  include("/home/user/catkin_ws_ladybug/build/utilities_stack/gazebo_msgs_model_states_to_pose_stamped/cmake_install.cmake")
+  include("/home/user/catkin_ws_ladybug/build/utilities_stack/point_cloud_size_publisher/cmake_install.cmake")
+  include("/home/user/catkin_ws_ladybug/build/utilities_stack/teleop_keyboard_qt/cmake_install.cmake")
+  include("/home/user/catkin_ws_ladybug/build/utilities_stack/omnijoy/cmake_install.cmake")
+  include("/home/user/catkin_ws_ladybug/build/utilities_stack/localization_tester_initialization_error/cmake_install.cmake")
+  include("/home/user/catkin_ws_ladybug/build/utilities_stack/qt_ros_interface/cmake_install.cmake")
+  include("/home/user/catkin_ws_ladybug/build/utilities_stack/console_msg_to_speak/cmake_install.cmake")
+  include("/home/user/catkin_ws_ladybug/build/driver_laser_nav350/cmake_install.cmake")
+  include("/home/user/catkin_ws_ladybug/build/utilities_stack/frame_speed_observer/cmake_install.cmake")
+  include("/home/user/catkin_ws_ladybug/build/localization_beacons_stack/laser_scan_to_beacons/cmake_install.cmake")
+  include("/home/user/catkin_ws_ladybug/build/localization_beacons_stack/localization_ekf_beacons/cmake_install.cmake")
+  include("/home/user/catkin_ws_ladybug/build/utilities_stack/pose_stamped_diff_tf_publisher/cmake_install.cmake")
+  include("/home/user/catkin_ws_ladybug/build/utilities_stack/pose_stamped_to_tf/cmake_install.cmake")
+  include("/home/user/catkin_ws_ladybug/build/utilities_stack/pose_tf_disk_saver/cmake_install.cmake")
+  include("/home/user/catkin_ws_ladybug/build/utilities_stack/simulator_beacons/cmake_install.cmake")
+  include("/home/user/catkin_ws_ladybug/build/localization_beacons_stack/slam_ekf_beacons/cmake_install.cmake")
+  include("/home/user/catkin_ws_ladybug/build/ndc_interface/cmake_install.cmake")
+  include("/home/user/catkin_ws_ladybug/build/utilities_stack/tf_transform_integrator/cmake_install.cmake")
+
+endif()
+
+if(CMAKE_INSTALL_COMPONENT)
+  set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
+else()
+  set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
+endif()
+
+string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
+       "${CMAKE_INSTALL_MANIFEST_FILES}")
+file(WRITE "/home/user/catkin_ws_ladybug/build/${CMAKE_INSTALL_MANIFEST}"
+     "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,0 +1,28 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~turn_off_observation" : \b [bool] default: false min: False, default: False, max: True
+- \b "~min_num_of_detections" : \b [int] (default: 0) min: 0, default: 0, max: 5
+- \b "~use_received_ids" : \b [bool] default: false min: False, default: False, max: True
+- \b "~outlier_filter" : \b [bool] default: true min: False, default: True, max: True
+- \b "~motion_model_gaussian_a1" : \b [double] meters/meter (default: 0.05) min: 0.0, default: 0.05, max: 1.0
+- \b "~motion_model_gaussian_a2" : \b [double] meters/degree (default: 0.001) min: 0.0, default: 0.001, max: 1.0
+- \b "~motion_model_gaussian_a3" : \b [double] degrees/meter (default: 5.0) min: 0.0, default: 5.0, max: 180.0
+- \b "~motion_model_gaussian_a4" : \b [double] degrees/degree (default: 0.05) min: 0.0, default: 0.05, max: 1.0
+- \b "~motion_model_gaussian_minStdXY" : \b [double] meters (default: 0.01) min: 0.0, default: 0.01, max: 1.0
+- \b "~motion_model_gaussian_minStdPHI" : \b [double] degrees (default: 0.2) min: 0.0, default: 0.2, max: 10.0
+- \b "~sensor_std_range" : \b [double] meters (default: 0.03) min: 0.001, default: 0.03, max: 1.0
+- \b "~sensor_std_yaw" : \b [double] degrees (default: 0.5) min: 0.001, default: 0.5, max: 45.0
+- \b "~confidende_factor" : \b [int] (default: 2) min: 1, default: 2, max: 4
+- \b "~initial_std_pos_x" : \b [double] (default: 1.0) min: 0.0, default: 1.0, max: 10.0
+- \b "~initial_std_pos_y" : \b [double] (default: 1.0) min: 0.0, default: 1.0, max: 10.0
+- \b "~initial_std_ori" : \b [double] (default: 45.0) min: 0.0, default: 45.0, max: 180.0
+- \b "~initialCovXY" : \b [double] (default: 0.0) min: -100.0, default: 0.0, max: 100.0
+- \b "~initialCovXOri" : \b [double] (default: 0.0) min: -100.0, default: 0.0, max: 100.0
+- \b "~initialCovYOri" : \b [double] (default: 0.0) min: -100.0, default: 0.0, max: 100.0
+- \b "~max_error_position" : \b [double] (default: 10.0) min: 0.0, default: 10.0, max: 10.0
+- \b "~max_error_orientation" : \b [double] (default: 90.0) min: 0.0, default: 90.0, max: 90.0
+- \b "~revover_back_lash" : \b [double] (default: 1.0) min: 0.0, default: 1.0, max: 1.0
+- \b "~uncertainty_supervisor" : \b [bool] default: true min: False, default: True, max: True
+

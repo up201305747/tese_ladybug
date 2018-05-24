@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_ws_ladybug/install
+
+Name: ladybug_localization_ekf_beacons
+Description: Description of ladybug_localization_ekf_beacons
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/user/catkin_ws_ladybug/install/lib 
+Requires: 
